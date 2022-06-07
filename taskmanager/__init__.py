@@ -1,3 +1,12 @@
+# https://docs.sqlalchemy.org/en/14/
+
+# set_pg
+# pip3 install Flask-SQLAlchemy psycopg2
+
+# psql
+# CREATE DATABASE taskmanager;
+# \c taskmanager;
+
 import os
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
