@@ -15,7 +15,6 @@
 
 # psql -d taskmanager
 # \dt
-
 import os
 from taskmanager import app
 

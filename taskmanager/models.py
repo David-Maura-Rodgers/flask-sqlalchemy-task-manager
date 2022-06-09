@@ -1,23 +1,4 @@
-# pylint --generate-rcfile > pylintrc
-
-# set_pg
-# pip3 install Flask-SQLAlchemy psycopg2
-# python -m pip install --upgrade pip
-# pip install pymysql
-
-# psql
-# CREATE DATABASE taskmanager;
-# \c taskmanager;
-
-# python3
-# from taskmanager import db
-# db.create_all()
-
-# psql -d taskmanager
-# \dt
-
 from taskmanager import db
-
 
 class Category(db.Model):
     # schema for the Category model
